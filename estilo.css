@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/**** Layout ****/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+}
+
+/**** Cabeçalho ****/
+
+@keyframes logo {
+  to {
+    width: 260px;
+    height: 65px;
+  }
+}
+
+@keyframes nav {
+  from {
+    color: #0b536f;
+  }
+
+  to {
+    color: #043549;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 5em;
+  width: 100%;
+  align-items: center;
+}
+
+a#logo > img {
+    width: 250px;
+    height: 58px;
+    color: #0b536f;
+    margin-top: 5px;
+    margin-left: 120px;
+}
+
+a#logo > img:hover {
+  animation: logo 2s;
+  animation-fill-mode: forwards;
+}
+
+header ul#nav {
+  display: flex;
+  margin-right: 8em;
+}
+
+ul#nav li > a {
+  display: block;
+  padding: 15px;
+  color: #0b536f;
+}
+
+ul#nav li > a:hover {
+  animation: nav 1s;
+  animation-fill-mode: forwards;
+}
+
+/**** Home ****/
+
+div#home {
+    background-image: url(./imagens/background3.jpg);
+    background-position: center center;
+    background-size: 100% 100%;    
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+
+    
+}
+
+#bemvindo {
+    float: left;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#bemvindo h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+#bemvindo p {
+    font-size: 1.9em;
+    margin-bottom: 40px;
+}
+
+#bemvindo > a#botao {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #16659E;
+    background-color: #fff;
+    padding: 15px 20px;
+}
+
+#bemvindo>a#botao:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 0.1px solid #fff;
+}
+
+div#home>img {
+    margin-left: 818px;
+    margin-top: -500px;
+    float: right;
+    width: 700px;
+    height: 600px;
+}
+
+/**** Notícias ****/
+
+section#section-new {
+  background-image: url(./imagens/background3.jpg);
+  background-position: top;
+  background-size: 100%;
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+section#section-new > h2 {
+  padding: 10px;
+  font-size: 50px;
+  color: #fff;
+}
+
+div#new {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 550px;
+  width: 100%;
+  align-items: center;
+  margin-top: -20px;
+}
+
+@keyframes prin {
+  from {
+    margin-left: -10px;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+div#noticia-principal {
+  width: 600px;
+  height: 450px;
+  background: #eee;
+  margin-left: 90px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px #043549;
+  -webkit-animation: prin 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-animation: prin 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -moz-animation: prin 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: prin 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+div#noticia-principal > a#link-prin > img {
+  width: 100%;
+  height: 85%;
+  border-radius: 10px;
+}
+
+div#noticia-principal > a#link-prin > p {
+  color: #043549;
+  padding: 5px;
+}
+
+div#noticia-principal > a#link-prin > p:hover {
+  color: #021b24;
+}
+
+div#noticia-principal > a#link-prin > img:hover {
+  opacity: 0.95;
+}
+
+@keyframes sec {
+  from {
+    margin-right: -10px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+div#noticia-secundaria {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 470px;
+  margin-right: 20px;
+  padding: 10px;
+  -webkit-animation: sec 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-animation: sec 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -moz-animation: sec 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: sec 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.noticia2 {
+  width: 300px;
+  height: 210px;
+  background: #eee;
+  margin: 10px 15px 0px 5px;
+  padding: 7px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px #043549;
+}
+
+.noticia2 > a > img {
+  width: 100%;
+  height: 77%;
+  border-radius: 10px;
+}
+
+.noticia2 > a > p {
+  color: #043549;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.noticia2 > a > img:hover {
+  opacity: 0.9;
+}
+
+.noticia2 > a > p:hover {
+  color: #021b24;
+}
+
+/**** Início do New ****/
+
+div#news {
+  height: 600px;
+  width: 100%;
+  align-items: center;
+  background-image: url(./imagens/background3.jpg);
+  background-position: center center;
+  background-size: 100%;
+  background-size: 100% 100%;
+}
+
+div#news > img {
+  position: absolute;
+  float: right;
+  width: 450px;
+  height: 600px;
+  margin-right: 150px;
+}
+
+/**** Newslatter ****/
+
+#newslatter {
+  float: left;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin-top: 110px;
+  margin-left: 60px;
+}
+
+#newslatter > h2 {
+  font-size: 4em;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#newslatter > p {
+  font-size: 1.9em;
+  width: 100%;
+}
+
+#newslatter label {
+  font-size: 1.9em;
+  margin-left: -90px;
+  margin-right: 5px;
+}
+
+#newslatter form {
+  align-items: center;
+  margin-top: 20px;
+}
+
+#newslatter input {
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#newslatter button {
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #16659E;
+  background-color: #fff;
+}
+
+#newslatter button:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 0.1px solid #fff;
+}
+
+/**** Fim do New ****/
+
+/**** Info ****/
+
+section#info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fff;
+  height: 300px;
+  width: 100%;
+  align-items: center;
+}
+
+.box-info {
+  height: 250px;
+  width: 33%;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 30px;
+}
+
+.box-info p {
+  font-size: 2em;
+}
+
+/**** Rodapé ****/
+
+footer {
+  background: #fff;
+  height: 4em;
+  width: 100%;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 4em;
+  font-weight: bold;
+  color: #043549;
+}
+

@@ -1,0 +1,783 @@
+/**** Responsivo ****/
+
+@media (max-width: 1480px) {
+
+    #bemvindo {
+        float: left;
+        width: 600px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    
+    /**** Notícias ****/
+    
+    div#noticia-principal {
+        width: 600px;
+        height: 450px;
+        margin-left: 60px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    div#noticia-secundaria {
+        width: 700px;
+        height: 470px;
+        margin-right: -20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1417px) {
+
+    /**** Notícias ****/
+
+    div#noticia-principal {
+        width: 600px;
+        height: 450px;
+        margin-left: 25px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    div#noticia-secundaria {
+        width: 700px;
+        height: 470px;
+        margin-right: -40px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    /**** Notícias ****/
+
+    div#noticia-principal {
+        width: 600px;
+        height: 450px;
+        margin-left: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    div#noticia-secundaria {
+        width: 700px;
+        height: 470px;
+        margin-right: -20px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 1350px) {
+
+    #bemvindo {
+        float: left;
+        width: 600px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    div#news {
+        height: 600px;
+        width: 100%;
+        align-items: center;
+        background-image: url(./imagens/background3.jpg);
+        background-position: center center;
+        background-size: 100%;
+        background-size: 100% 100%;
+    }
+    
+    div#news>img {
+        display: none;
+    }
+
+    /**** Notícias ****/
+    
+    div#new {
+        height: 600px;
+        width: 100%;
+        align-items: center;
+        margin-top: -20px;
+    }
+    
+    div#noticia-principal {
+        width: 600px;
+        height: 450px;
+        margin: 40px auto;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    div#noticia-secundaria {
+        width: 650px;
+        height: 470px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    /**** Newslatter ****/
+    
+    #newslatter {
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        align-items: center;
+        color: white;
+        margin: 100px auto;
+        padding: 20px;
+    }
+
+}
+
+@media (max-width:1310px) {
+    /**** Notícias ****/
+    
+    div#new {
+        height: 1000px;
+        width: 100%;
+        align-items: center;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    /**** Home ****/
+    
+    div#home {
+        height: 600px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    #bemvindo {
+        float: left;
+        width: 500px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 12px;
+        padding: 10px 20px;
+    }
+    
+    #bemvindo h2 {
+        font-size: 3.7em;
+        margin-bottom: 20px;
+    }
+    
+    #bemvindo p {
+        font-size: 1.6em;
+        margin: 0 10px;
+        margin-bottom: 45px;
+    }
+
+    #bemvindo>a#botao {
+        width: 150px;
+        height: 45px;
+        font-size: 25px;
+        padding: 15px 20px;
+    }
+
+    div#home>img {
+        margin-left: 818px;
+        margin-top: -500px;
+        float: right;
+        width: 685px;
+        height: 600px;
+    }
+
+    header {
+        height: 5em;
+        align-items: center;
+    }
+
+    a#logo>img {
+        margin-left: 70px
+    }
+
+    header ul#nav {
+        margin-right: 3em;
+    }
+
+    ul#nav li>a {
+        display: block;
+        padding: 13px;
+        color: #0b536f;
+    }
+
+    /**** Info ****/
+
+    section#info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #fff;
+        height: 300px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .box-info {
+        height: 250px;
+        width: 33%;
+        margin: 20px auto;
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+    }
+    
+    .box-info p {
+        font-size: 1.8em;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 1125px) {
+    #bemvindo {
+        float: left;
+        width: 500px;
+        height: 400px;
+        margin-top: 70px;
+        margin-left: 0px;
+        padding: 10px 20px;
+    }
+    
+    #bemvindo h2 {
+        font-size: 3.7em;
+        margin-bottom: 20px;
+    }
+    
+    #bemvindo p {
+        font-size: 1.6em;
+        margin-bottom: 45px;
+        padding: 0px 50px;
+    }
+    
+    #bemvindo>a#botao {
+        width: 150px;
+        height: 45px;
+        font-size: 25px;
+        padding: 15px 20px;
+    }
+
+    div#home>img {
+        margin-left: 818px;
+        margin-top: -470px;
+        float: right;
+        width: 685px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 1065px) {
+    #bemvindo {
+        float: left;
+        width: 500px;
+        height: 400px;
+        margin-top: 70px;
+        margin-left: 10px;
+        padding: 10px;
+        text-align:left;
+    }
+
+    #bemvindo h2 {
+        font-size: 3.7em;
+        margin-bottom: 20px;
+    }
+
+    #bemvindo p {
+        font-size: 1.4em;
+        text-align: left;
+        margin-left: -50px;
+        padding-right: 50px;
+        width: 400px;
+
+    }
+
+    #bemvindo>a#botao {
+        width: 150px;
+        height: 45px;
+        font-size: 25px;
+        padding: 15px 20px;
+    }
+
+    div#home>img {
+        margin-left: 818px;
+        margin-top: -470px;
+        float: right;
+        width: 585px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    /**** Cabeçalho ****/
+
+    header {
+        height: 5em;
+        align-items: center;
+    }
+
+    a#logo>img {
+        margin-left: 40px
+    }
+
+    header ul#nav {
+        margin-right: 2em;
+    }
+
+    ul#nav li>a {
+        display: block;
+        padding: 13px;
+        color: #0b536f;
+    }
+
+    /**** Info ****/
+
+    section#info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #fff;
+        height: 300px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .box-info {
+        height: 250px;
+        width: 33%;
+        margin: 20px auto;
+        text-align: center;
+        background-color: #fff;
+        padding: 10px;
+    }
+    
+    .box-info p {
+        font-size: 1.6em;
+        margin-top: 10px;
+    }
+
+    /**** Início do New ****/
+    
+    div#news {
+        height: 700px;
+        width: 100%;
+        align-items: center;
+        background-image: url(./imagens/background3.jpg);
+        background-position: center center;
+        background-size: 100%;
+        background-size: 100% 100%;
+    }
+    
+    div#news>img {
+        display: none;
+    }
+    
+    /**** Newslatter ****/
+    
+    #newslatter {
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        align-items: center;
+        color: white;
+        margin: 100px auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 920px) {
+    #bemvindo {
+        float: left;
+        width: 370px;
+        height: 400px;
+        margin-top: 70px;
+        margin-left: 5px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    #bemvindo h2 {
+        font-size: 3.4em;
+        margin-bottom: 20px;
+    }
+
+    #bemvindo p {
+        font-size: 1.2em;
+        text-align: left;
+        margin-left: -50px;
+        padding-right: 50px;
+        width: 340px;
+
+    }
+
+    #bemvindo>a#botao {
+        width: 150px;
+        height: 45px;
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+
+    div#home>img {
+        margin-left: 818px;
+        margin-top: -470px;
+        float: right;
+        width: 580px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+
+     header {
+        height: 7.5em;
+        align-items: center;
+        text-align: center;
+    }
+
+    a#logo>img {
+        margin-left: 250px;
+    }
+
+    header ul#nav {
+        margin: 5px 190px;
+    }
+
+    ul#nav li>a {
+        display: block;
+        padding: 12px;
+        color: #0b536f;
+    }
+
+    /**** Notícias ****/
+    
+    div#new {
+        height: 1220px;
+        width: 100%;
+        align-items: center;
+        margin-top: -20px;
+    }
+    
+    div#noticia-principal {
+        width: 600px;
+        height: 550px;
+        margin: 40px auto;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    div#noticia-secundaria {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 650px;
+        height: 580px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    /**** Home ****/
+
+    #bemvindo {
+        width: 100%;
+        height: 400px;
+        margin-top: 70px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #bemvindo h2 {
+        font-size: 4em;
+        margin-bottom: 20px;
+    }
+    
+    #bemvindo p {
+        font-size: 1.8em;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    #bemvindo>a#botao {
+        width: 150px;
+        height: 80px;
+        font-size: 30px;
+        padding: 15px 20px;
+    }
+    
+    div#home>img {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+
+    header {
+        height: 7.5em;
+        align-items: center;
+        text-align: center;
+    }
+
+    a#logo>img {
+        margin-left: 220px;
+    }
+
+    header ul#nav {
+        margin: 5px 160px;
+    }
+
+    ul#nav li>a {
+        display: block;
+        padding: 12px;
+        color: #0b536f;
+    }
+}
+
+@media (max-width: 700px) {
+
+    header {
+        height: 7.5em;
+        align-items: center;
+        text-align: center;
+    }
+
+    a#logo>img {
+        margin-left: 200px;
+    }
+
+    header ul#nav {
+        margin: 5px 140px;
+    }
+
+    ul#nav li>a {
+        display: block;
+        padding: 12px;
+        color: #0b536f;
+    }
+
+    /**** Info ****/
+    
+    section#info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #fff;
+        height: 300px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .box-info {
+        height: 250px;
+        width: 33%;
+        margin: 20px auto;
+        text-align: center;
+        background-color: #fff;
+        padding: 5px;
+    }
+    
+    .box-info p {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    /**** Notícias ****/
+    
+    div#new {
+        height: 1620px;
+        width: 100%;
+        align-items: center;
+        margin-top: -20px;
+    }
+    
+    div#noticia-principal {
+        width: 520px;
+        height: 450px;
+        margin: 40px auto;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.19em;
+    }
+
+    div#noticia-secundaria {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 650px;
+        height: 1100px;
+        padding: 10px;
+    }
+    
+    .noticia2 {
+        width: 350px;
+        height: 240px;
+        background: #eee;
+        margin: 7px auto;
+        padding: 7px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 0px 0px 10px #043549;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    header {
+        height: 7.5em;
+        align-items: center;
+        text-align: center;
+    }
+
+    a#logo>img {
+        margin-left: 175px;
+    }
+
+    header ul#nav {
+        margin: 5px 110px;
+    }
+
+    ul#nav li>a {
+        display: block;
+        padding: 12px;
+        color: #0b536f;
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+
+    header {
+        height: 7.5em;
+        align-items: center;
+        text-align: center;
+    }
+
+    a#logo>img {
+        margin-left: 150px;
+    }
+
+    header ul#nav {
+        margin: 5px 90px;
+    }
+
+    ul#nav li>a {
+        display: block;
+        padding: 12px;
+        color: #0b536f;
+    }
+}
+
+@media (max-width: 550px) {
+
+    header {
+        height: 7.5em;
+        align-items: center;
+        text-align: center;
+    }
+
+    a#logo>img {
+        margin-left: 130px;
+    }
+
+    header ul#nav {
+        margin: 5px 65px;
+    }
+
+    ul#nav li>a {
+        display: block;
+        padding: 12px;
+        color: #0b536f;
+    }
+}
+
+@media (max-width: 500px) {
+
+    @keyframes logo {
+        to {
+            width: 254px;
+            height: 62px;
+        }
+    }
+
+    a#logo>img:hover {
+        animation: logo 0.1s;
+        animation-fill-mode: forwards;
+    }
+
+    header {
+        height: 7.5em;
+        align-items: center;
+    }
+
+    a#logo>img {
+        width: 250px;
+        height: 58px;
+        margin-left: 110px;
+    }
+
+    header ul#nav {
+        margin-left: 45px;
+    }
+
+    ul#nav li>a {
+        display: block;
+        padding: 12px;
+        color: #0b536f;
+    }
+
+    div#home {
+        height: 600px;
+        width: 100%;
+        align-items: center;
+    }
+
+    #bemvindo {
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        color: white;
+        margin: 100px auto;
+    }
+
+    #bemvindo h2 {
+        font-size: 3.5em;
+        margin-bottom: 20px;
+    }
+    
+    #bemvindo p {
+        font-size: 1.7em;
+        margin: 0 10px;
+        margin-bottom: 45px;
+    }
+    
+    #bemvindo>a#botao {
+        width: 130px;
+        height: 10px;
+        border-radius: 50px;
+        font-size: 25px;
+    }
+
+    div#home>img {
+        display: none;
+    }
+  
+}
